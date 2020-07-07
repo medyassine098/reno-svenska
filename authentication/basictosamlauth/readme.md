@@ -1,4 +1,4 @@
-##Basic Authentication in Proxy EndPoint to SAML Authentication for Target End Point
+## Basic Authentication in Proxy EndPoint to SAML Authentication for Target End Point
 
 Basic authentications allows a HTTP agent to pass in user name and password while making a call. The user name and password is passed in the http header Authorization
 
@@ -25,7 +25,7 @@ Once the user credential is passed by the user agent in the *Authorization* head
 
 The decoded user, passed is assigned to the flow variable, this flow variable is then used to trigger the SAML flows (used in the constants.js - getCredential() method)
 
-![alt text] (./images/usecredinsamlflow.png)
+![alt text](./images/usecredinsamlflow.png)
 
 The details of the SAML flow is described in [here](../saml)
 
